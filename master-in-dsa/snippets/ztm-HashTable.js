@@ -36,23 +36,17 @@ class Hashtable{
     keys(){
         const keysArray=[];
         for (let index = 0; index < this.data.length; index++) {
-            const currentBucket = array[index];
-            if(currentBucket){
-                for (let i = 0; i < currentBucket.length; i++) {
-                 const element = currentBucket[i];
-                 if(element[0] === key){
-                     return element[1];
-                 }            
-                }
+            if(this.data[index]){
+                    keysArray.push(this.data[index][0][0])
              } 
-            
         }
+        return keysArray;
     }
 }
 
-const myHashTable=new Hashtable(2);
+const myHashTable=new Hashtable(50);
 myHashTable.set('grapes',10000) 
 myHashTable.set('apples',54)
 myHashTable.set('appes',54)
-
 console.log(myHashTable.get('grapes'))
+console.log(myHashTable.keys())
