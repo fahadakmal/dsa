@@ -1,0 +1,351 @@
+body, html {
+    color: #383838;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.body {
+    font-family: Source Sans Pro, Arial, Helvetica;
+    background-color: #FFFFFF;
+    font-size: 14px;
+}
+
+table {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+
+table, tr, td {
+    padding: 0 !important;
+    border-spacing: 0 0 !important;
+}
+
+a {
+    color: #16a3e2 !important;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    height: auto;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: Source Sans Pro, Arial, Helvetica;
+}
+
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #16a3e2;
+}
+
+    .btn-primary:hover {
+        background-color: #2c86c7 !important;
+        color: #ffffff !important
+    }
+
+.h10 {
+    height: 10px
+}
+
+.h15 {
+    height: 15px
+}
+
+.h25 {
+    height: 25px
+}
+
+.pb-6 {
+    padding-bottom: 6px
+}
+
+.pl-5 {
+    padding-left: 5px
+}
+
+.text-color-primary {
+    color: #16a3e2 !important;
+}
+
+.table-wrapper {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+    padding: 0;
+    border-spacing: 0;
+    width: 100%
+}
+
+.table-wrapper-row {
+    padding: 0;
+    border-spacing: 0;
+    padding-bottom: 5px
+}
+
+.table_550 {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+    padding: 10px 0;
+    border-spacing: 0;
+}
+
+.row-logo {
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo-white {
+    box-sizing: border-box;
+    width: 180px;
+    max-width: 180px;
+    height: auto;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    color: #383838;
+    font-weight: 600
+}
+
+.email-wrapper {
+    width: 100%;
+}
+
+.summary-line {
+    background: #ddd;
+    height: 1px;
+    width: 100%
+}
+
+.mb20 {
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+
+.email-footer {
+    color: #888888
+}
+
+.hidden-mso {
+    display: none !important;
+}
+
+.small-text {
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888888
+}
+
+.v-middle {
+    vertical-align: middle
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.w-150 {
+    width: 150px
+}
+.w-300 {
+    width:300px
+}
+h1.big-heading {
+    font-size: 26px;
+    font-weight: 400
+}
+.font-14{
+    font-size: 14px;
+}
+.FW600{
+    font-weight: 600;
+}
+.mt-24{
+    margin-top: 24px;
+}
+h1.heading-success {
+    font-size: 30px;
+    font-weight: 300;
+    color: #003348
+}
+
+h1.heading-failed {
+    font-size: 30px;
+    font-weight: 300;
+    color: #E63459
+}
+
+.status-rejected {
+    color: #E63459
+}
+
+.status-approved {
+    color: #4bf322
+}
+.email-footer-description {
+    font-size: 10px;
+    text-align: center;
+    color: #888888;
+    padding: 8px 0px 79px 0px !important;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.text-title {
+    text-align: start;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.border-bottom-grey {
+    border-bottom: 1px solid #ddd;
+}
+.text-grey {
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #888888;
+    margin-right: 4px;
+
+}
+.text-12 {
+    font-size: 12px;
+}
+.email-message {
+    margin-top: ;
+}
+.content-box {
+    background: #fff;
+    padding: 40px 20px !important;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.10) 0 3px 6px;
+}
+.content-box-share {
+    padding: 40px 20px !important;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+.bg-opac-blue {
+    background: rgba(79, 171, 245, 0.15);
+    padding: 8px 20px;
+}
+.add-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-box p {
+    color: #383838
+}
+
+.list-left {
+    text-align: left;
+    padding: 5px 30px;
+    line-height: 12px
+}
+
+.w15 {
+    width: 15%
+}
+
+.header-main {
+    padding: 0;
+    border-spacing: 0;
+    background: url(http://s3.amazonaws.com/f3cdn/email-assets/header-bg-img.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    vertical-align: top
+}
+.pcm-data-list.table{
+    width: 100% !important;
+}
+.pcm-data-list table tr{
+    height: 28px;
+    text-align: left;
+}
+.content-details-row{
+    text-align: center;     
+}
+.content-data-row{
+    text-align: left;
+    padding: 2px 6px;
+}
+.content-data-row-bg{
+    background-color: #f7f7f7;
+}
+.content-data-row-bg > td {
+    padding: 10px 0 10px 10px !important;
+}
+.data-col-left{
+    width: 23%;
+    color: #888888;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    border-bottom: 1px solid #DDDDDD !important;
+}
+.data-col-right{
+    color: #383838;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 70%;
+    border-bottom: 1px solid #DDDDDD !important;
+}
+.data-col-center{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+}
+@media screen and (max-width: 640px) {
+    .table_550 {
+        width: 100% !important;
+        height: auto !important;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    img {
+        display: block;
+        border: none;
+    }
+
+    td, p, body {
+        -MS-text-size-adjust: none !important;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+    }
+
+    .content-data-row {
+        display: grid;
+    }
+
+    h1.big-heading {
+        font-size: 20px;
+        font-weight: 400
+    }
+
+    h1.heading-success, h1.heading-failed {
+        font-size: 20px;
+        font-weight: 300
+    }
+
+    .content-box {
+        padding: 30px 20px !important;
+    }
+}
