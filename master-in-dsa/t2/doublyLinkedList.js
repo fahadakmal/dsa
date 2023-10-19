@@ -28,7 +28,7 @@ class DoublyLinkedList{
     append(value){
         //5
         const newNode=new Node(value)
-         newNode.previous= this.tail
+         newNode.previous= this.tail    
          this.tail.next=newNode;
          this.tail=newNode
          this.length++;
@@ -51,7 +51,7 @@ class DoublyLinkedList{
         const leader=this.traverseToIndex(index-1)
         // [10,5,99,11,16];
         const follower=leader.next;
-        newNode.previous=leader
+        newNode.previous=leader 
         leader.next=newNode;
         newNode.next=follower
         follower.previous=newNode
