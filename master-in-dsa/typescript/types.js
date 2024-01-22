@@ -1,0 +1,12 @@
+var isStudent = true;
+isStudent = false;
+var studentNumber = 3;
+var email = "fahad@gmail.com";
+var fullName = "fahad Akmal";
+var greeting = "hello, ".concat(fullName);
+var friends = ['bob', 'alice', 'joe'];
+var nameAgeAndSchool;
+nameAgeAndSchool = ['Fahad', 8, 'University of Pesha'];
+var notSure = 8;
+notSure = "a string instead";
+notSure = true;
